@@ -31,7 +31,7 @@ export function valida(input){
             typeMismatch: 'O email digita não é valido'
         },
         senha:{
-            valueMissing: 'Ocampo de senha não pode estar vazio',
+            valueMissing: 'O campo de senha não pode estar vazio',
             patternMismatch: '"A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos'
         },
         dataNascimento: {
@@ -62,7 +62,7 @@ function validaDataNascimento (input){
     let mensagem = "";
 
     if (!maiorQue18(dataRecebida)){
-    mensagem = "Você deve ser maior que 18 anos para se cadastrar"
+    mensagem = "Você tem que ser maior que 18 anos para se cadastrar"
 }
 
 
