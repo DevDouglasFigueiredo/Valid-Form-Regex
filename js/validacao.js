@@ -24,10 +24,10 @@ export function valida(input){
 
     const mensagensDeErro = {
         nome:{
-            valueMissing: 'O campo não pode estar vazio'
+            valueMissing: 'O campo não pode estar vazio, favor preencher'
         },
         email: {
-            valueMissing: 'O campo de email não pode estar vazio',
+            valueMissing: 'O campo de email não pode estar vazio, favor preencher',
             typeMismatch: 'O email digita não é valido'
         },
         senha:{
@@ -35,7 +35,7 @@ export function valida(input){
             patternMismatch: '"A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos'
         },
         dataNascimento: {
-            valueMissing: 'O campo de data de nascimento, não pode estar vazio',
+            valueMissing: 'O campo de data de nascimento, não pode estar vazio, favor preencher',
             customError: 'Você deve ser maio de 18 anos para de cadastrar'
         }
 
