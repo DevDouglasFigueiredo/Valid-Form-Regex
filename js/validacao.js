@@ -63,6 +63,8 @@ function validaDataNascimento (input){
 
     if (!maiorQue18(dataRecebida)){
     mensagem = "Você tem que ser maior que 18 anos para se cadastrar"
+} else {
+    maiorQue18
 }
 
 
